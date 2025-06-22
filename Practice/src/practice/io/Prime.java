@@ -13,6 +13,7 @@ public class Prime {
 	}
 	
 	
+	
 	public static void main (String arg[]) {
 		Prime p1 = new Prime ();
 		System.out.println(p1.checkPrime(27));
