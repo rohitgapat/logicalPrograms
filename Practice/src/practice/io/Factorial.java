@@ -1,5 +1,7 @@
 package practice.io;
 
+import java.util.Scanner;
+
 public class Factorial {
 	
 	public int findFactorial (int num) {
@@ -13,6 +15,12 @@ public class Factorial {
 	}
 	public static void main(String[] args) {
 		Factorial f=new Factorial();
-		System.out.println(f.findFactorial(5));
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the number");
+		int num = sc.nextInt();
+		
+		System.out.println(f.findFactorial(num));
+		sc.close();
 	}
 }
